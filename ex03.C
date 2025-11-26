@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main()
+{
 
     float num1, num2, resposta;
 
@@ -13,7 +14,6 @@ int main(){
     resposta = num1 * num2;
     printf("O valor da área é: %.2f", resposta);
 
-   
     system("pause");
     return 0;
 }
